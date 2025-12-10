@@ -129,6 +129,7 @@ edia (max-width: 992px) {
     .form .row {
         flex-direction: column;
         gap: 10px;
+        flex-wrap: wrap;
     }
 
     input, select {
@@ -151,6 +152,7 @@ edia (max-width: 992px) {
     .container {
         margin: 20px;
         padding: 0;
+        flex-wrap: wrap;
     }
 
     .left-section p {
