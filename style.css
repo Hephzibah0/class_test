@@ -104,3 +104,65 @@ input:focus, select:focus {
     color: #13c0a3;
     text-decoration: none;
 }
+
+edia (max-width: 992px) {
+    .container {
+        margin: 30px;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+
+    .left-section {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .right-section {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+/* Large phones (≤ 768px) */
+@media (max-width: 768px) {
+    .form .row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input, select {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .right-section {
+        padding: 25px;
+    }
+
+    .left-section h1 {
+        font-size: 26px;
+    }
+}
+
+/* Small phones (≤ 480px) */
+@media (max-width: 480px) {
+
+    .container {
+        margin: 20px;
+        padding: 0;
+    }
+
+    .left-section p {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .terms {
+        font-size: 11px;
+    }
+} 
